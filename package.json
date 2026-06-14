@@ -1,0 +1,23 @@
+{
+  "name": "pharmaguard-edge",
+  "version": "1.0.0",
+  "description": "Offline clinical antibiotic steward — QVAC Hackathon I (Psy Models + General Purpose)",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "benchmark": "node scripts/benchmark.js",
+    "demo": "node scripts/benchmark.js --demo-query \"Patient eGFR 35, UTI — safest oral antibiotic?\""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "dependencies": {
+    "@qvac/sdk": "1.1.0"
+  },
+  "overrides": {
+    "@qvac/transcription-whispercpp": "0.7.0",
+    "@qvac/transcription-parakeet": "0.6.0",
+    "@qvac/decoder-audio": "0.4.0"
+  }
+}

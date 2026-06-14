@@ -1,0 +1,26 @@
+[
+  {
+    "names": ["amoxicillin", "amox"],
+    "aware": "ACCESS",
+    "renal": "Reduce dose if eGFR < 30; avoid if severe penicillin allergy.",
+    "indication": "Community-acquired UTI, respiratory infections when susceptible."
+  },
+  {
+    "names": ["nitrofurantoin", "macrobid"],
+    "aware": "ACCESS",
+    "renal": "Avoid if eGFR < 30.",
+    "indication": "Uncomplicated lower UTI — first-line when appropriate."
+  },
+  {
+    "names": ["ciprofloxacin", "cipro"],
+    "aware": "WATCH",
+    "renal": "Dose adjust eGFR < 50.",
+    "indication": "Reserve for resistant organisms; not first-line UTI."
+  },
+  {
+    "names": ["metformin"],
+    "aware": "ACCESS",
+    "renal": "Contraindicated eGFR < 30; caution 30-45.",
+    "indication": "Type 2 diabetes — renal dosing critical."
+  }
+]
